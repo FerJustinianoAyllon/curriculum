@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.contenedor {
+    display: flex;
+    min-height: 100vh;
+}
+
+.barralateral {
+    background: #1e3c72;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.perfil {
+    text-align: center;
+}
+.perfil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+.perfil h2 {
+    margin: 10px 0 5px;
+}
+.perfil p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.barralateral h3 {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.barralateral ul {
+    list-style: none;
+    padding: 0;
+}
+.barralateral ul li {
+    margin: 8px 0;
+}
+
+.contenido {
+    flex: 1;
+    padding: 40px;
+    background: #f4f4f9;
+}
+
+.contenido h2 {
+    color: #1e3c72;
+    border-bottom: 2px solid #1e3c72;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.trabajo {
+    margin-bottom: 20px;
+}
+.trabajo h3 {
+    margin: 0;
+    color: #333;
+}
+.trabajo span {
+    font-size: 14px;
+    color: gray;
+}
+.trabajo p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+}
